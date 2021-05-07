@@ -1,2 +1,2 @@
 # derivatives algorithms
-C++ derivatives algorithms development
+derivatives algorithms development in C++
