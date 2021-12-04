@@ -1,4 +1,3 @@
-//
 //  BlackScholesPricer.cpp
 
 #if 0  /// use -lQuantLib  to compile this
