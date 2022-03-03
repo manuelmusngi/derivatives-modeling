@@ -1,6 +1,6 @@
 //
-//  BlackScholes.cpp
-//#include "BlackScholes.hpp"
+//Black Scholes Model
+#include "BlackScholes.hpp"
 
 
 #include <cmath>
