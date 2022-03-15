@@ -11,10 +11,10 @@
 
 using namespace std;
 
-// using std::vector;
-// using std::cout;
-// using std::endl;
-// using std::setw;
+using std::vector;
+using std::cout;
+using std::endl;
+using std::setw;
 
 BlackScholesMethod::BlackScholesMethod(double expiration, double maxPrice,
                                        double strike, double intRate)
