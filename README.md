@@ -1,3 +1,3 @@
-## derivatives algorithms in C++
+## financial derivatives modeling in C++
 
  
