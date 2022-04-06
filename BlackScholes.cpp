@@ -16,20 +16,19 @@ using std::cout;
 using std::endl;
 using std::setw;
 
-BlackScholesMethod::BlackScholesMethod(double expiration, double maxPrice,
-                                       double strike, double intRate)
-: m_expiration(expiration),
-m_maxPrice(maxPrice),
-m_strike(strike),
-m_intRate(intRate)
+BlackScholesMethod::BlackScholesMethod(double expiration, double maxPrice,bdouble strike, double intRate): 
+b_expiration(expiration),
+b_maxPrice(maxPrice),
+b_strike(strike),
+b_intRate(intRate)
 {
 }
 
-BlackScholesMethod::BlackScholesMethod(const BlackScholesMethod &p)
-: m_expiration(p.m_expiration),
-m_maxPrice(p.m_maxPrice),
-m_strike(p.m_strike),
-m_intRate(p.m_intRate)
+BlackScholesMethod::BlackScholesMethod(const BlackScholesMethod &p): 
+b_expiration(p.b_expiration),
+b_maxPrice(p.b_maxPrice),
+b_strike(p.b_strike),
+b_intRate(p.b_intRate)
 {
 }
 
@@ -41,18 +40,18 @@ BlackScholesMethod &BlackScholesMethod::operator=(const BlackScholesMethod &p)
 {
     if (this != &p)
     {
-        m_expiration = p.m_expiration;
-        m_maxPrice = p.m_maxPrice;
-        m_strike = p.m_strike;
-        m_intRate = p.m_intRate;
+        b_expiration = p.b_expiration;
+        b_maxPrice = p.b_maxPrice;
+        b_strike = p.b_strike;
+        b_intRate = p.b_intRate;
     }
     return *this;
 }
 
 vector<double> BlackScholesMethod::solve(double volatility, int nx, int timeSteps)
 {
-    double dt = m_expiration /(double)timeSteps;
-    double dx = m_maxPrice /(double)nx;
+    double dt = b_expiration /(double)timeSteps;
+    double dx = b_maxPrice /(double)nx;
 
     vector<double> a(nx-1);
     vector<double> b(nx-1);
@@ -66,12 +65,12 @@ vector<double> BlackScholesMethod::solve(double volatility, int nx, int timeStep
 
     for (i = 0; i < nx - 2; i++)
     {
-        c[i] = 0.5 * dt * pow(volatility * (i+1), 2) + 0.5 * dt * m_intRate * (i+1);
+        c[i] = 0.5 * dt * pow(volatility * (i+1), 2) + 0.5 * dt * b_intRate * (i+1);
     }
 
     for (i = 1; i < nx - 1; i++)
     {
-        a[i] = 0.5 * dt * pow(volatility * (i+1), 2) - 0.5 * dt * m_intRate * (i+1);
+        a[i] = 0.5 * dt * pow(volatility * (i+1), 2) - 0.5 * dt * b_intRate * (i+1);
     }
 
     vector<double> u((nx-1)*(timeSteps+1));
@@ -80,15 +79,15 @@ vector<double> BlackScholesMethod::solve(double volatility, int nx, int timeStep
     for (i = 0; i < nx - 1; i++)
     {
         u0 += dx;
-        u[i+0*(nx-1)] = std::max(u0 - m_strike, 0.0);
+        u[i+0*(nx-1)] = std::max(u0 - b_strike, 0.0);
     }
 
     for (int j = 0; j < timeSteps; j++)
     {
-        double t = (double)(j) * m_expiration /(double)timeSteps;
+        double t = (double)(j) * b_expiration /(double)timeSteps;
 
-        double p = 0.5 * dt * (nx - 1) * (volatility*volatility * (nx-1) + m_intRate)
-        * (m_maxPrice-m_strike * exp(-m_intRate*t ) );
+        double p = 0.5 * dt * (nx - 1) * (volatility*volatility * (nx-1) + b_intRate)
+        * (b_maxPrice-b_strike * exp(-b_intRate*t ) );
 
         for (i = 0; i < nx - 1; i++)
         {
