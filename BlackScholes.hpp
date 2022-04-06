@@ -15,9 +15,9 @@ public:
 
     std::vector<double> solve(double volatility, int nx, int timeSteps);
 private:
-    double m_expiration;
-    double m_maxPrice;
-    double m_strike;
-    double m_intRate;
+    double b_expiration;
+    double b_maxPrice;
+    double b_strike;
+    double b_intRate;
 };
 #endif /* BlackScholes_hpp */
