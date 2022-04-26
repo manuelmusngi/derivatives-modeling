@@ -1,4 +1,5 @@
 //  BlackScholesPricer.cpp
+//  original example model 
 
 #if 0  /// use -lQuantLib  to compile this
 #include "BlackScholesPricer.hpp"
