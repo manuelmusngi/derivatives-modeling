@@ -1,3 +1,6 @@
+//
+//Implied Volatility with Newton Raphson model
+//
 #ifndef __MAIN_CPP
 #define __MAIN_CPP
 
@@ -15,7 +18,7 @@ int main(int argc, char **argv) {
   double T = 1.0;    // One year until expiry
   double C_M = 10.5; // Option market price
 
-  // Create the Black-Scholes Call functor
+  // Create the Black-Scholes Call 
   BlackScholesCall bsc(S, K, r, T);
 
   // Newton Raphson parameters
