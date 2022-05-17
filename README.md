@@ -1,6 +1,6 @@
 ### derivatives modeling in C++
 
-- Volatility Modeling 
+- Implied Volatility Modeling 
 - Options Pricing
 
 #### Reference:
