@@ -13,7 +13,7 @@
 using namespace std;
 
 map<int, double> OptionCalc::calcImpliedVols(double price, 
-                                             vector<double> opPrices,
+                                             vector<double> optionPrices,
                                              vector<int> strikes, 
                                              double rate, 
                                              double dividend, 
