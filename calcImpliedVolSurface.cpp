@@ -1,5 +1,5 @@
 //
-// Calculate Implied Volatility Surface
+// Calculate Implied Volatility 
 //
 // [in]:  double price                   : computes the volatility surface of an option chain
 //        vector<double> strikes         : price of stock
