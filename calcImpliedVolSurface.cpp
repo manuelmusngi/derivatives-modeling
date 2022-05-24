@@ -1,12 +1,12 @@
 //
 // Calculate Implied Volatility Surface
 //
-// [in]:  double price                    : computes the volatility surface of an option chain
-//       vector<double> strikes           : price of stock
-//       vector<double> maturities:       : vector of maturities 
-//       map<double, double> rates        : vector of risk-free interest rates
-//       double dividend                  : dividend yield of stock
-// [out]: map of implied volatilities     : key is a pair<strike, maturity>
+// [in]:  double price                     : computes the volatility surface of an option chain
+//        vector<double> strikes           : price of stock
+//        vector<double> maturities:       : vector of maturities 
+//        map<double, double> rates        : vector of risk-free interest rates
+//        double dividend                  : dividend yield of stock
+// [out]: map of implied volatilities      : key is a pair<strike, maturity>
 //
 map<int,double> OptionCalc::calcImpliedVols(double price, 
                                             vector<double> opPrices,
