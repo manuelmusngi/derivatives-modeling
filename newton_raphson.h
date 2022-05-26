@@ -11,8 +11,8 @@ double newton_raphson(double y_target,       // Target y value
                       double epsilon,        // Tolerance
                       const T& root_func) {  // Function objec
   // Set the initial option prices and volatility
-  double y = (root_func.*g)(init);  // Initial option prices
-  double x = init;                  // Initial volatility
+  double y = (root_func.*g)(init);           // Initial option prices
+  double x = init;                           // Initial volatility
 
   // While y and y_target are not similar enough
   // Take the vega of the option and recalculate
