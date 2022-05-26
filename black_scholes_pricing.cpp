@@ -1,6 +1,6 @@
-// 
-// Black Scholes Pricing with modification
-// 
+/*
+   Black Scholes Pricing with modification
+*/ 
 #define _USE_MATH_DEFINES
 
 #include <iostream>
@@ -13,9 +13,8 @@ double norm_pdf(const double& x) {
     return (1.0/(pow(2*M_PI,0.5)))*exp(-0.5*x*x);
 }
 
-// An approximation to the cumulative distribution function
-// for the standard normal distribution
-// Note: This is a recursive function
+// An approximation to the cumulative distribution 
+// function for the standard normal distribution
 double norm_cdf(const double& x) {
     double k = 1.0/(1.0 + 0.2316419*x);
     double k_sum = k*(0.319381530 + k*(-0.356563782 + k*(1.781477937 + k*(-1.821255978 + 1.330274429*k))));
