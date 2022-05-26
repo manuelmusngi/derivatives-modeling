@@ -1,6 +1,6 @@
-//
-//Implied Volatility with Newton Raphson model
-//
+/*
+  Implied Volatility with Newton Raphson model
+*/
 #ifndef __MAIN_CPP
 #define __MAIN_CPP
 
