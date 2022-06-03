@@ -30,4 +30,4 @@ double calcDelta(double price,
         delta = exp(-div*T)*(util.normalCalc(d1) - 1);
     
     return delta;
-};
+}
