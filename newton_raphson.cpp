@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
   double S = 100.0;  // Underlying spot price
   double K = 100.0;  // Strike price
   double r = 0.05;   // Risk-free rate (5%)
-  double T = 1.0;    // One year until expiry
+  double T = 1.0;    // One year until expiration
   double C_M = 10.5; // Option market price
 
   // Create the Black-Scholes Call 
