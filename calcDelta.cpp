@@ -18,7 +18,7 @@ double calcDelta(double price,
                  double div,
                  double vol,
                  double T,
-                char type)
+                 char type)
 {
     double d1, delta;
     
