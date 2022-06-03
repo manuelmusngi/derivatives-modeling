@@ -1,10 +1,12 @@
 /*
-[in >>]:  double price                   : computes the volatilities
+Implied volatility calculation
 
+[in >>]:  double price                   : computes the volatilities
           vector<double> strikes         : price of instrument
           vector<double> maturities      : vector of maturities or expiration
           map<double, double> rates      : vector of risk-free interest rates
           double dividend                : dividend yield of instrument
+          
 [out <<]: map of implied volatilities    : key is a pair<strike, maturity>
 */
 
