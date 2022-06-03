@@ -7,6 +7,7 @@ calcDelta                :Delta calculation of an Option
          double div      :dividend yield
          double T        :time to maturity or days until expiration
          char type       :Call Option 'C' or Put Option 'P'
+         
 [out<<]  double          :Delta
 */
 #include <cmath>
