@@ -11,6 +11,6 @@
 - Options Pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
      
-#### Reference:
+#### Reference(s):
 
 C++ Design Patterns and Derivatives Pricing, Mark S. Joshi
