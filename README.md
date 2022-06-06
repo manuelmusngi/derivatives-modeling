@@ -13,4 +13,4 @@
      
 #### Reference(s):
 
-C++ Design Patterns and Derivatives Pricing, Mark S. Joshi
+- C++ Design Patterns and Derivatives Pricing, Mark S. Joshi
