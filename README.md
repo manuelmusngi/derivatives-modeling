@@ -6,7 +6,6 @@
     
 - Options Pricing
      - [black_scholes_pricing.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_pricing.cpp)
-     - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
      
 #### Reference:
 
