@@ -1,7 +1,7 @@
 ### derivatives modeling in C++
 
 - Implied Volatility Modeling with Newton-Raphson Model
-     - [newton_raphson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.cpp) 
+- 
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/main.h)
      - [black_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
