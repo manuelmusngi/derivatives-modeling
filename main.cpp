@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
     BlackScholesCall bsc(S, K, r, T);
 
     // Newton-Raphson parameters
-    double init = 0.3;  // Our guess impl. vol of 30%
+    double init = 0.3;  // Guess of impl. vol of 30%
     double epsilon = 0.001;
 
     // Calculate the Implied Volatility
