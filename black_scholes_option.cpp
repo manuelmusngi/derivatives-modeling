@@ -1,5 +1,6 @@
 /* 
-   Black Scholes Pricing Model 
+   Black Scholes Pricing Model
+   
    Modified as a standalone with no header file 
    as an example which can be recompiled to re-run.
 */ 
