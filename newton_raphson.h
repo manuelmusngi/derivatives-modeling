@@ -15,8 +15,7 @@ double newton_raphson(double y_target,       // Target y value
   double x = init;                           // Initial volatility
 
   // Take the vega of the option and recalculate
-  // a new call price based on the best linear
-  // approximation at that particular vol value
+  // a new call price
   while (fabs(y-y_target) > epsilon) {
     double d_x = (root_func.*g_prime)(x);
     x += (y_target-y)/d_x;
