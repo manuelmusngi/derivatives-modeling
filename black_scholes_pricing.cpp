@@ -1,6 +1,6 @@
 /*
-   Black Scholes Pricing with modification
-   as an example
+   Black Scholes Pricing 
+   with modification as an example
 */ 
 #define _USE_MATH_DEFINES
 
