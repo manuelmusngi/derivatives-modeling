@@ -1,6 +1,5 @@
 /*
-  Implied Volatility Model with Newton-Raphson Model
-
+    Implied Volatility Model with Newton-Raphson Model
 */
 
 #ifndef __BLACK_SCHOLES_H
