@@ -3,7 +3,7 @@
 - Implied Volatility with Newton-Raphson Model 
  
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
-     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/main.h)
+     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/main.cpp)
      - [black_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
