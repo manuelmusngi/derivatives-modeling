@@ -5,7 +5,7 @@
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
     
 - Options Pricing
-     - [black_scholes_pricing.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_pricing.cpp)
+     - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
      
 #### Reference:
 
