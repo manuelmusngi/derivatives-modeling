@@ -62,7 +62,7 @@ int main(int argc, char **argv)
 {
     // Parameter list of Option components with values 
     // as an example
-    double S = 100.0;  // Option price
+    double S = 100.0;  // Underlying price
     double K = 100.0;  // Strike price
     double r = 0.05;   // Risk-free rate (5%)
     double v = 0.2;    // Volatility of the underlying (20%)
