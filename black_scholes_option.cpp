@@ -58,7 +58,7 @@ double put_price(const double& S, const double& K, const double& r, const double
 
 int main(int argc, char **argv) 
 {
-    // Parameter list of Option components with values 
+    // Parameter list of Option variables with values 
     // as an example
     double S = 100.0;  // Underlying price
     double K = 100.0;  // Strike price
