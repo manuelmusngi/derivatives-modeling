@@ -1,8 +1,6 @@
 /* 
    Black Scholes Pricing Model
-   
-   Modified as a standalone with no header file 
-   as an example which can be recompiled to re-run.
+   Modified as a standalone which can be recompiled and re-run.
 */ 
 #define _USE_MATH_DEFINES
 
