@@ -1,6 +1,6 @@
 /* 
    Black Scholes Pricing Model
-   Modified as a standalone which can be recompiled and re-run.
+   Modified as a standalone  
 */ 
 #define _USE_MATH_DEFINES
 
