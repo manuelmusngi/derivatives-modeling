@@ -1,6 +1,9 @@
 #ifndef __BLACK_SCHOLES_H
 #define __BLACK_SCHOLES_H
 
+#include <iostream>
+#include <cmath>
+
 using namespace std;
 
 class BlackScholesCall 
