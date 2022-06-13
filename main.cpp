@@ -5,7 +5,10 @@
 #include "newton_raphson.h"
 #include <iostream>
 
-int main(int argc, char **argv) {
+using namespace std;
+
+int main(int argc, char **argv) 
+{
 
     // Parameter list with example values
     double S = 100.0;  // Underlying spot price
@@ -26,7 +29,7 @@ int main(int argc, char **argv) {
                                   &BlackScholesCall::option_vega>(C_M, init, epsilon, bsc);
 
     // Output values
-    std::cout << "Implied Vol: " << sigma << std::endl;
+    cout << "Implied Vol: " << sigma << endl;
 
     return 0;
 }
