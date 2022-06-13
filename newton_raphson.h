@@ -1,7 +1,10 @@
 #ifndef __NEWTON_RAPHSON_H
 #define __NEWTON_RAPHSON_H
 
+#include <iostream>
 #include <cmath>
+
+using namespace std;
 
 template<typename T, 
   double (T::*g)(double) const,
