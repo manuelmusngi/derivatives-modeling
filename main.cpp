@@ -4,6 +4,7 @@
 #include "black_scholes.h"
 #include "newton_raphson.h"
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
