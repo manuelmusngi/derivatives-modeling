@@ -1,6 +1,8 @@
 #ifndef __BLACK_SCHOLES_CPP
 #define __BLACK_SCHOLES_CPP
 
+#include <iostream>
+#include <cmath>
 #include "black_scholes.h"
 #include "bs_prices.h"
 
