@@ -4,6 +4,8 @@
 #include "black_scholes.h"
 #include "bs_prices.h"
 
+using namespace std;
+
 BlackScholesCall::BlackScholesCall(double _S, double _K, double _r, double _T):
     S(_S), K(_K), r(_r), T(_T) {}
 
