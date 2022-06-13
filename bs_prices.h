@@ -6,6 +6,8 @@
 #include <iostream>
 #include <cmath>
 
+using namespace std;
+
 // Standard normal probability density function
 double norm_pdf(const double x) 
 {
