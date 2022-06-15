@@ -1,5 +1,5 @@
-#ifndef __MAIN_CPP
-#define __MAIN_CPP
+#ifndef __IV_MAIN_CPP
+#define __IV_MAIN_CPP
 
 #include "black_scholes.h"
 #include "newton_raphson.h"
@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     // Parameter list with example values
     double S = 100.0;  // Underlying spot price
     double K = 100.0;  // Strike price
-    double r = 0.05;   // Risk-free rate (5%)
+    double r = 0.05;   // Risk-free rate (example 5%)
     double T = 1.0;    // One year until option expiration
     double C_M = 10.5; // Option market price
 
