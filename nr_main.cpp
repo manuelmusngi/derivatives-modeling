@@ -1,5 +1,5 @@
-#ifndef __IV_MAIN_CPP
-#define __IV_MAIN_CPP
+#ifndef __NR_MAIN_CPP
+#define __NR_MAIN_CPP
 
 #include "black_scholes.h"
 #include "newton_raphson.h"
