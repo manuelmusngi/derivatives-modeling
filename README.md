@@ -7,6 +7,11 @@
      - [black_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
+
+- Derivatives Greeks 
+ 
+     - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
+     - [b_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/b_scholes.h)
     
 - Options Pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
