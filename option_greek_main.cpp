@@ -4,7 +4,7 @@ using namespace std;
 
 int main(int argc, char** argv) 
 {
-	// Create a parameter list
+	// Create a parameter list as for example
 	double S = 100.0;  // Option price
 	double K = 100.0;  // Strike price
 	double r = 0.05;   // Risk-free rate (example 5%)
@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 	double put_theta_v = put_theta(S, K, r, v, T);
 	double put_rho_v = put_rho(S, K, r, v, T);
 
-	// Output the parameters and prices
+	// Output Greek parameters and Option price
 	cout << "Underlying:      " << S << endl;
 	cout << "Strike:          " << K << endl;
 	cout << "Risk-Free Rate:  " << r << endl;
