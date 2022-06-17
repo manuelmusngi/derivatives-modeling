@@ -11,7 +11,6 @@ double norm_pdf(const double x)
 }
 
 // Approximations to the cumulative distribution function(cdf) for the standard normal distribution(pdf)
-
 double norm_cdf(const double x) 
 {
     double k = 1.0 / (1.0 + 0.2316419 * x);
