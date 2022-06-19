@@ -92,13 +92,13 @@ double put_delta(const double S, const double K, const double r, const double v,
 // Calculate the European Expiry Put Gamma
 double put_gamma(const double S, const double K, const double r, const double v, const double T)
 {
-    return call_gamma(S, K, r, v, T); // Identical to call by put-call parity
+    return call_gamma(S, K, r, v, T); // Identical to Call by Put-Call parity
 }
 
 // Calculate the European Expiry Put Vega
 double put_vega(const double S, const double K, const double r, const double v, const double T)
 {
-    return call_vega(S, K, r, v, T); // Identical to call by put-call parity
+    return call_vega(S, K, r, v, T); // Identical to Call by Put-Call parity
 }
 
 // Calculate the European Expiry Put Theta
