@@ -14,8 +14,7 @@ double norm_pdf(const double x)
     return (1.0 / (pow(2 * M_PI, 0.5))) * exp(-0.5 * x * x);
 }
 
-// An approximation to the cumulative distribution function
-// for the standard normal distribution
+// Approximation to the cumulative distribution function for the standard normal distribution
 double norm_cdf(const double x)
 {
     double k = 1.0 / (1.0 + 0.2316419 * x);
@@ -38,7 +37,7 @@ double d_j(const int j, const double S, const double K, const double r, const do
     return (log(S / K) + (r + (pow(-1, j - 1)) * 0.5 * v * v) * T) / (v * (pow(T, 0.5)));
 }
 
-// Calculate the European vanilla call price based on
+// Calculate the European vanilla call price based on-
 // underlying S, strike K, risk-free rate r, volatility of
 // underlying sigma and time to maturity T
 double call_price(const double S, const double K, const double r, const double v, const double T)
@@ -114,32 +113,6 @@ double put_theta(const double S, const double K, const double r, const double v,
 double put_rho(const double S, const double K, const double r, const double v, const double T)
 {
     return -T * K * exp(-r * T) * norm_cdf(-d_j(2, S, K, r, v, T));
-}
-
-// ===========
-// MONTE CARLO
-// ===========
-
-// A simple implementation of the Box-Muller algorithm, used to generate
-// gaussian random numbers - necessary for the Monte Carlo method below
-// Note that C++11 actually provides std::normal_distribution<> in 
-// the <random> library, which can be used instead of this function
-double gaussian_box_muller()
-{
-    double x = 0.0;
-    double y = 0.0;
-    double euclid_sq = 0.0;
-
-    // Continue generating two uniform random variables
-    // until the square of their "euclidean distance" 
-    // is less than unity
-    do {
-        x = 2.0 * rand() / static_cast<double>(RAND_MAX) - 1;
-        y = 2.0 * rand() / static_cast<double>(RAND_MAX) - 1;
-        euclid_sq = x * x + y * y;
-    } while (euclid_sq >= 1.0);
-
-    return x * sqrt(-2 * log(euclid_sq) / euclid_sq);
 }
 
 #endif
