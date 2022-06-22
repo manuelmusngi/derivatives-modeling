@@ -7,6 +7,11 @@
      - [black_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
+- Moving Average Model for volatility of asset returns
+     - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
+     - [ma.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
+     
+
 - Option Greeks 
  
      - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
@@ -15,7 +20,4 @@
 - Options Pricing - concise pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
 
-- Moving Average Modeling for volatility of asset returns
-     - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
-     - [ma.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
-     
+
