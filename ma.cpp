@@ -9,17 +9,17 @@ using namespace std;
 vector<double> StatModel::MA(int lag, vector<double>& S)
 {
 	vector<double>	returns;				// vector of asset returns
-	vector<double>	vols;					// vector of volatilities
-	vector<double>::iterator iter;			// vector iterator
+	vector<double>	vols;			// vector of volatilities
+	vector<double>::iterator iter;		// vector iterator
 
-	double ret = 0.0;						// continuous compound return at time i
-	double sum = 0.0;						// total returns added up
-	double var = 0.0;						// sum of squared errors
-	double ave = 0.0;						// average return
-	// double S;							// asset price
+	double ret = 0.0;			// continuous compound return at time i
+	double sum = 0.0;			// total returns added up
+	double var = 0.0;			// sum of squared errors
+	double ave = 0.0;			// average return
+	// double S;				// asset price
 
-	int N = S.size();				        // cache sizes of time series
-	int A = 252;							// 252 trading days per year
+	int N = S.size();			// cache sizes of time series
+	int A = 252;				// 252 trading days per year
 	int i, j;								
 
 
