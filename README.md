@@ -15,7 +15,7 @@
 - Options Pricing - concise pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
 
-- Moving Average Modeling for volatility and asset returns
+- Moving Average Modeling for volatility of asset returns
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
      - [ma.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
      
