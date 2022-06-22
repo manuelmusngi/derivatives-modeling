@@ -1,5 +1,6 @@
 /*
-	Moving Average modeling for volatility and asset returns
+	Moving Average modeling for volatility of asset returns
+	
 */
 #include <iostream>
 #include "StatModel.h"
