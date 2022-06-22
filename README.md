@@ -12,7 +12,7 @@
      - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
      - [b_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/b_scholes.h)
     
-- Options Pricing
+- Options Pricing (concise pricing)
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
 
 - Moving Average Modeling for volatility and asset returns
