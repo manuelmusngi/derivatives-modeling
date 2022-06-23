@@ -9,7 +9,7 @@
 
 - Moving Average Model for volatility of asset returns
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
-     - [ma.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
+     - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
      
 
 - Option Greeks 
