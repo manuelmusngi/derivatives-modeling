@@ -8,7 +8,7 @@
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
 - Moving Average Model for volatility of asset returns
-     - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
+     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
      - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
      
 
