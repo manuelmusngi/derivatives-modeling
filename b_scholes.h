@@ -1,5 +1,6 @@
 #ifndef B_SCHOLES_H
 #define B_SCHOLES_H
+
 #define _USE_MATH_DEFINES
 
 #include <iostream>
