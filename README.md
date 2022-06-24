@@ -12,12 +12,14 @@
      - [b_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/b_scholes.h)
 
 - Moving Average Model for volatility of asset returns
+     - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp) 
      - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/statmodel.h)
-     - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
+   
 
 - Exponentially Weighted Moving Average Model for volatility of asset returns
-     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/statmodel.h)
      - [ewma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma.cpp)
+     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/statmodel.h)
+    
     
 - Options Pricing - concise pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
