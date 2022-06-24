@@ -10,8 +10,8 @@ using namespace std;
 
 vector<double> StatModel::EWMA(double lambda, vector<double>& S)
 {
-	vector<double> returns;				// vector returns
-	vector<double> vols;				// vector of volatilities
+	vector<double> returns;			// vector returns
+	vector<double> vols;			// vector of volatilities
 	vector<double> ::iterator iter;		// vector of iterator
 
 	double ret = 0.0;					
