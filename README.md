@@ -20,5 +20,3 @@
 - Options Pricing - concise pricing
      - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
 
-
-### Reference(s)
