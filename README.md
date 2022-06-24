@@ -8,10 +8,13 @@
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
 - Moving Average Model for volatility of asset returns
-     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
+     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/statmodel.h)
      - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp)
-     
 
+- Exponentially Weighted Moving Average Model for volatility of asset returns
+     - [statmodel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/statmodel.h)
+     - [ewma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma.cpp)
+     
 - Option Greeks 
  
      - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
