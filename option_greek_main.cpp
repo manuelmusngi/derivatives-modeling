@@ -1,3 +1,8 @@
+/*
+	Calculation of Option sensitivities or Greeks
+*/
+#include <iostream>
+#include <cmath>
 #include "b_scholes.h"
 
 using namespace std;
