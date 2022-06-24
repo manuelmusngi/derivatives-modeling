@@ -1,3 +1,6 @@
+/*
+	Exponentially Weighted Moving Average (EWMA) of volatilities of asset returns
+*/
 #include <iostream>
 #include <cmath>
 
