@@ -1,5 +1,5 @@
 /*
-	Exponentially Weighted Moving Average of volatilities of asset return
+	Exponentially Weighted Moving Average of volatility of asset returns
 */
 #include <iostream>
 #include <vector>
