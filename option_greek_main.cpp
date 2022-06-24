@@ -10,7 +10,7 @@ using namespace std;
 int main(int argc, char** argv) 
 {
 	// Create a parameter list as for example
-	double S = 100.0;  // Option price
+	double S = 100.0;  // Instrument price
 	double K = 100.0;  // Strike price
 	double r = 0.05;   // Risk-free rate (example 5%)
 	double v = 0.2;    // Volatility of the underlying (example 20%)
