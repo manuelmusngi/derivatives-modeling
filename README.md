@@ -7,7 +7,7 @@
      - [black_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
-- Option Greeks 
+- Option Sensitivities or Greeks 
      - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
      - [b_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/b_scholes.h)
 
