@@ -1,5 +1,5 @@
-#ifndef BS_PRICES H
-#define BS_PRICES H
+#ifndef BS_PRICES_H
+#define BS_PRICES_H
 
 #define _USE_MATH_DEFINES
 
