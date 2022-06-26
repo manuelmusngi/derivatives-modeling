@@ -4,7 +4,6 @@
 #include <iostream>
 #include <cmath>
 #include "black_scholes.h"
-#include "bs_prices.h"
 
 using namespace std;
 
