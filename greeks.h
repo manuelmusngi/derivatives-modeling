@@ -1,5 +1,5 @@
-#ifndef B_SCHOLES_H
-#define B_SCHOLES_H
+#ifndef GREEKS_H
+#define GREEKS_H
 
 #define _USE_MATH_DEFINES
 
