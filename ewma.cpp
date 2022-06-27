@@ -40,9 +40,9 @@ vector<double> StatModel::EWMA(double lambda, vector<double>& S)
 		{
 			var +=(lambda, j - 1)*(returns[lag + i - j -1] - ave) * (returns[lag + i - j - 1]) - ave;
 		}
-		var = (1 -lambda)*var;
+		var = (1 - lambda) * var;
 		// annualize volatility
-		vols. push_back(100*sqrt(var/A));
+		vols. push_back(100 * sqrt(var/A));
 	}
 	// print out of EWMA volatilities
 	for (iter = vols.begin(); iter != vols.end(); iter++)
