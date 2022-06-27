@@ -8,7 +8,7 @@
      - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
 
 - Option Sensitivities or Greeks 
-     - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
+     - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
      - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.h)
 
 - Moving Average Model for volatility of asset returns
