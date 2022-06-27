@@ -9,7 +9,7 @@
 
 - Option Sensitivities or Greeks 
      - [option_greek_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option_greek_main.cpp)
-     - [b_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/b_scholes.h)
+     - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.h)
 
 - Moving Average Model for volatility of asset returns
      - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp) 
