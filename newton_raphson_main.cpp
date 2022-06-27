@@ -1,6 +1,3 @@
-#ifndef __NR_MAIN_CPP
-#define __NR_MAIN_CPP
-
 #include "black_scholes.h"
 #include "newton_raphson.h"
 #include <iostream>
@@ -34,5 +31,3 @@ int main(int argc, char **argv)
 
     return 0;
 }
-
-#endif
