@@ -1,12 +1,6 @@
 #ifndef B_SCHOLES_H
 #define B_SCHOLES_H
 
-#define _USE_MATH_DEFINES
-
-#include <iostream>
-#include <cmath>
-#include <algorithm>    
-
 // Standard normal probability density function
 double norm_pdf(const double x) 
 {
