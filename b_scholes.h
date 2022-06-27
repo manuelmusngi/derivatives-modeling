@@ -1,6 +1,8 @@
 #ifndef B_SCHOLES_H
 #define B_SCHOLES_H
 
+#define _USE_MATH_DEFINES
+
 // Standard normal probability density function
 double norm_pdf(const double x) 
 {
