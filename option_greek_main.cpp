@@ -3,7 +3,7 @@
 */
 #include <iostream>
 #include <cmath>
-#include "b_scholes.h"
+#include "greeks.h"
 
 using namespace std;
 
