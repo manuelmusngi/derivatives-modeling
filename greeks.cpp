@@ -1,14 +1,10 @@
 #ifndef GREEKS_H
 #define GREEKS_H
 
-#include <iostream>
-//#include <cmath>
-//#include <algorithm>
-
-
 #define _USE_MATH_DEFINES
-#include <cmath>
-#include <math.h>
+
+#include <iostream>
+#include<cmath>
 
 using namespace std;
 
