@@ -34,7 +34,7 @@ double call_theta(const double S, const double K, const double r, const double v
 // Calculate the European Call Rho
 double call_rho(const double S, const double K, const double r, const double v, const double T);
 
-// Calculate the European vanilla Put price based on:
+// Calculate the European Put price based on:
 // underlying S, strike K, risk-free rate r, volatility of underlying sigma and time to maturity T
 double put_price(const double S, const double K, const double r, const double v, const double T);
 
