@@ -11,8 +11,8 @@ template<typename T,
   double (T::*g_prime)(double) const>
   double newton_raphson(double y_target,       // Target y value
                         double init,           // Initial x value
-                        double epsilon,        // Tolerance
-                        const T& root_func)    // Function object
+                        double epsilon,        
+                        const T& root_func)    
 { 
   double y = (root_func.*g)(init);
   double x = init;
