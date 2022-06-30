@@ -14,6 +14,3 @@
      - [ewma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma.cpp)
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
       
-- Options Pricing - concise pricing
-     - [black_scholes_option.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes_option.cpp)
-
