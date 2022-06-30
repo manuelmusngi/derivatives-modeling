@@ -1,10 +1,9 @@
-#ifndef GREEKS_H
-#define GREEKS_H
+#include "greeks.h"
+#include <iostream>
+#include <cmath>
+#include <algorithm>
 
 #define _USE_MATH_DEFINES
-
-#include <iostream>
-#include<cmath>
 
 using namespace std;
 
@@ -111,5 +110,3 @@ double put_rho(const double S, const double K, const double r, const double v, c
 {
     return -T * K * exp(-r * T) * norm_cdf(-d_j(2, S, K, r, v, T));
 }
-
-#endif
