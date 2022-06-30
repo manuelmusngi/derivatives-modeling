@@ -1,5 +1,5 @@
-#ifndef BS_PRICES_H
-#define BS_PRICES_H
+#ifndef BLACK_SCHOLES_H
+#define BLACK_SCHOLES_H
 
 #define _USE_MATH_DEFINES
 
