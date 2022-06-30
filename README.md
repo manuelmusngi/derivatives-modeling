@@ -14,10 +14,10 @@
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
 - Moving Average Model for volatility of asset returns
-     - [ma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma.cpp) 
+     - [ma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
    
 - Exponentially Weighted Moving Average Model for volatility of asset returns
-     - [ewma.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma.cpp)
+     - [ewma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma_main.cpp)
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
       
