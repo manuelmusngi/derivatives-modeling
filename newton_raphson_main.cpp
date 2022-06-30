@@ -1,7 +1,7 @@
-#include "black_scholes.h"
-#include "newton_raphson.h"
 #include <iostream>
 #include <cmath>
+#include "black_scholes.h"
+#include "newton_raphson.h"
 
 using namespace std;
 
