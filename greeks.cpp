@@ -1,7 +1,7 @@
-#include "greeks.h"
 #include <iostream>
 #include <cmath>
 #include <algorithm>
+#include "greeks.h"
 
 #define _USE_MATH_DEFINES
 
