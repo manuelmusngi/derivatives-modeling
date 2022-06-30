@@ -1,32 +1,34 @@
-#include <iostream>
-#include <cmath>
-#include "black_scholes.h"
+#ifndef __NR_MAIN_CPP
+#define __NR_MAIN_CPP
+
+#include "bs_scholes.h"
 #include "newton_raphson.h"
+
+#include <iostream>
 
 using namespace std;
 
-int main(int argc, char **argv) 
-{
+int main(int argc, char** argv) {
 
-    // Parameter list with example values
+    // First we create the parameter list
     double S = 100.0;  // Underlying spot price
     double K = 100.0;  // Strike price
-    double r = 0.05;   // Risk-free rate (example 5%)
-    double T = 1.0;    // One year until option expiration
+    double r = 0.05;   // Risk-free rate (5%)
+    double T = 1.0;    // One year until expiry
     double C_M = 10.5; // Option market price
 
-    // Black-Scholes Call parameters
+    // Create the Black-Scholes Call functor
     BlackScholesCall bsc(S, K, r, T);
 
-    // Newton-Raphson parameters
-    double init = 0.3;  // Guess of impl. vol of 30%
+    // Newton Raphson parameters
+    double init = 0.3;  // Our guess impl. vol of 30%
     double epsilon = 0.001;
 
-    // Calculate the Implied Volatility
-    double sigma = newton_raphson<BlackScholesCall, &BlackScholesCall::option_price, 
-                                  &BlackScholesCall::option_vega>(C_M, init, epsilon, bsc);
+    // Calculate the implied volatility
+    double sigma = newton_raphson<BlackScholesCall, &BlackScholesCall::option_price,
+        &BlackScholesCall::option_vega>(C_M, init, epsilon, bsc);
 
-    // Output values
+    // Output the values
     cout << "Implied Vol: " << sigma << endl;
 
     return 0;
