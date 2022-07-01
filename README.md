@@ -1,7 +1,7 @@
 ### derivatives modeling in C++
 
 
-- Option Sensitivities or Greeks with Black-Scholes Merton Model
+- Option Sensitivities with Black-Scholes Merton Model
      - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.cpp)
      - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.h)
