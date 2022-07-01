@@ -8,8 +8,8 @@
 
 using namespace std;
 
-int main(int argc, char** argv) {
-
+int main(int argc, char** argv) 
+{
     // Parameter list
     double S = 100.0;  // Underlying spot price
     double K = 100.0;  // Strike price
