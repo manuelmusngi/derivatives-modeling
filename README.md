@@ -1,4 +1,4 @@
-### derivatives modeling in C++
+### derivatives modeling in C++:
 
 
 - Option Sensitivities with Black-Scholes Merton Model
