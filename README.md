@@ -21,4 +21,4 @@
      - [ewma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma_main.cpp)
      - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
       
-### reference(s):
+
