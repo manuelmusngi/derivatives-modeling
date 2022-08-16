@@ -26,4 +26,4 @@ double BSCallPrice(double vol, double rate, double strike, double price, double 
 	d2 = d1 -  (vol * sqrt(T));
 	callprice = price * exp(T) * proba1 - strike * exp(-rate * T) * proba2;
 	return callprice;
-}
+};
