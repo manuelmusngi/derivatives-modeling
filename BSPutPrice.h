@@ -23,4 +23,4 @@ double BSPutPrice(double vol, double rate, double strike, double price, double T
     putprice = strike*exp(-rate*T) * proba2 - price * exp(T) * proba1;
     
     return putprice;
-}
+};
