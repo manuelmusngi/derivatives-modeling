@@ -1,6 +1,6 @@
 ### derivatives modeling in C++:
 
-- Stochastic Volatility Modeling with Implied Volatility Surface
+- Implied Volatility Surfaces with Stochastic Volatility Models
      - [calculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateImpliedVolatilitySurface.cpp)
      - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/normalCalc.h)
      - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSCallPrice.h)
