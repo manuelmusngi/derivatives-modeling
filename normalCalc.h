@@ -1,10 +1,11 @@
 /*
-	normalCalc : computes cumulative normal distribution probabilities
+	normalCalc: Computes cumulative normal distribution probabilities
 */
 #ifndef NORMALCALC_H
 #define NORMALCALC_H
 
 #define _USE_MATH_DEFINES
+
 #include <cmath>
 
 
