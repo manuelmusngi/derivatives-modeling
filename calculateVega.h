@@ -1,4 +1,7 @@
-/**********************************************************************************/
+/*
+	calculateVega: Calculates Options Sensitivity Vega 
+*/
+
 #ifndef CALCULATEVEGA_H
 #define CALCULATEVEGA_H
 
