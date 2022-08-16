@@ -93,5 +93,5 @@ map<pair<double, int>, double> calculateImpliedVolatilitySurface(double price,
 			cout << surfaceMap[*vecPairIter] << endl;
 
 		return surfaceMap;
-}
+};
 
