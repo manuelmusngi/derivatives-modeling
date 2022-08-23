@@ -1,12 +1,5 @@
 ### derivatives modeling in C++:
 
-- Implied Volatility Surfaces with Stochastic Volatility Models
-     - [calculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateImpliedVolatilitySurface.cpp)
-     - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/normalCalc.h)
-     - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSCallPrice.h)
-     - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSPutPrice.h)
-     - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateVega.h)
-
 - Option Sensitivities with Black-Scholes Merton Model
      - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.cpp)
@@ -18,6 +11,13 @@
      - [bs_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [bs_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
+
+- Implied Volatility Surfaces with Stochastic Volatility Model
+     - [calculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateImpliedVolatilitySurface.cpp)
+     - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/normalCalc.h)
+     - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSCallPrice.h)
+     - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSPutPrice.h)
+     - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateVega.h)  
 
 - Moving Average Model for volatility of asset returns
      - [ma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
