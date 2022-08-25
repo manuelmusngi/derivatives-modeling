@@ -1,5 +1,5 @@
-#ifndef STATMODEL_H
-#define STATMODEL_H
+#ifndef MOVING_AVERAGE_MODEL_H
+#define MOVING_AVERAGE_MODEL_H
 
 #include <vector>
 #include <utility>
@@ -8,7 +8,7 @@
 
 using namespace std;
 
-class StatModel
+class MovingAverageModel
 {
 	protected:
 		vector<double> returns;
@@ -17,11 +17,10 @@ class StatModel
 		int i;
 
 	public:
-		StatModel() {}
-		virtual ~StatModel() {};
+		MovingAverageModel() {}
+		virtual ~MovingAverageModel() {};
 		vector<double> MA(int lag, vector<double>& S);
-		vector<double> MA(int lag);
-		vector<double> EWMA(double lambda, vector<double>& S);		
+		vector<double> MA(int lag);		
 };
 
 #endif
