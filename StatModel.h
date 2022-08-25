@@ -1,5 +1,5 @@
-#ifndef MOVING_AVERAGE_MODEL_H
-#define MOVING_AVERAGE_MODEL_H
+#ifndef MOVINGAVERAGEMODEL_H
+#define MOVINGAVERAGEMODEL_H
 
 #include <vector>
 #include <utility>
