@@ -4,11 +4,11 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "StatModel.h"
+#include "EWMAModel.h"
 
 using namespace std;
 
-vector<double> StatModel::EWMA(double lambda, vector<double>& S)
+vector<double> EWMAModel::EWMA(double lambda, vector<double>& S)
 {
 	vector<double> returns;			// vector returns
 	vector<double> vols;			// vector of volatilities
