@@ -51,4 +51,4 @@ vector<double> EWMAModel::EWMA(double lambda, vector<double>& S)
 		i++;
 	}
 	return returns;
-}
+};
