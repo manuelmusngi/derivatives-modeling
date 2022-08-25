@@ -2,7 +2,7 @@
 	Moving Average modeling for volatility of asset returns	
 */
 #include <iostream>
-#include "StatModel.h"
+#include "MovingAverageModel.h"
 
 using namespace std;
 
@@ -44,7 +44,7 @@ vector<double> MAModel::MA(int lag, vector<double>& S)
 		vols.push_back(100 * sqrt(var / ((lag - 1) * (A))));
 	}
 	i = 0;
-	// print of MA volatilites
+	// print of Moving Average volatilites
 	for (iter=vols.begin(); iter != vols.end() ; iter++) 
 	{
 		cout << *iter << endl;
