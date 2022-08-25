@@ -44,7 +44,7 @@ vector<double> StatModel::EWMA(double lambda, vector<double>& S)
 		// annualize volatility
 		vols. push_back(100 * sqrt(var/A));
 	}
-	// print out of EWMA volatilities
+	// printout of EWMA volatilities
 	for (iter = vols.begin(); iter != vols.end(); iter++)
 	{
 		cout << *iter << endl;
