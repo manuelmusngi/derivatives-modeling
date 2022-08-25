@@ -21,7 +21,7 @@
 
 - Moving Average Model for volatility of asset returns
      - [ma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
-     - [StatModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/StatModel.h)
+     - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
    
 - Exponentially Weighted Moving Average Model for volatility of asset returns
      - [ewma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma_main.cpp)
