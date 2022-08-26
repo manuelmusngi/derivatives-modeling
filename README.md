@@ -12,7 +12,7 @@
      - [bs_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
      - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
-- Implied Volatility Surfaces with Stochastic Volatility Model
+- Implied Volatility Surface with Stochastic Volatility Model
      - [calculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateImpliedVolatilitySurface.cpp)
      - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/normalCalc.h)
      - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSCallPrice.h)
