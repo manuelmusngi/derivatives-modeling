@@ -1,5 +1,5 @@
 /*
-	calculateImpliedVolatilitySurface: Computes the volatility surface of an option chain
+	CalculateImpliedVolatilitySurface: Computes the volatility surface of an option chain
 	Modified model versions and referenced: Modeling Derivatives in C++ by Justin London
 */
 
