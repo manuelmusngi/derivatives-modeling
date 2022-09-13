@@ -15,6 +15,6 @@
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateVega.h)  
 
 - Moving Average Model for volatility of asset returns
-     - [MovingAverageMain_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
+     - [MovingAverageModel_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
      - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
   
