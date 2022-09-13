@@ -1,10 +1,5 @@
 ### derivatives modeling in C++:
 
-- Option Sensitivities with Black-Scholes Merton Model
-     - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
-     - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.cpp)
-     - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.h)
-
 - Implied Volatility with Newton-Raphson Model 
      - [newton_raphson_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson_main.cpp)
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
@@ -22,8 +17,4 @@
 - Moving Average Model for volatility of asset returns
      - [ma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
      - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
-   
-- Exponentially Weighted Moving Average Model for volatility of asset returns
-     - [ewma_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma_main.cpp)
-     - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.h)
-      
+  
