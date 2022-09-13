@@ -6,7 +6,7 @@
 
 using namespace std;
 
-vector<double> MovingAverageModel::MA(int lag, vector<double>& S)
+vector<double> MovingAverageModel::MovingAverageModel(int lag, vector<double>& S)
 {
 	vector<double>	returns;		// vector of asset returns
 	vector<double>	vols;			// vector of volatilities
