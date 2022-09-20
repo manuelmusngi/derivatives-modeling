@@ -5,7 +5,6 @@
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
      - [bs_scholes.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.cpp)
      - [bs_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
-     - [bs_prices.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/bs_prices.h)
 
 - Implied Volatility Surface with Stochastic Volatility Model
      - [CalculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/CalculateImpliedVolatilitySurface.cpp)
