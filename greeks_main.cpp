@@ -1,5 +1,5 @@
 /*
-	Calculation of Option sensitivities or Greeks
+	Calculation of Options Sensitivities
 */
 #include <iostream>
 #include <cmath>
