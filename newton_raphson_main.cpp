@@ -1,7 +1,7 @@
 #ifndef __NEWTON_RAPHSON_MAIN_CPP
 #define __NEWTON_RAPHSON_MAIN_CPP
 
-#include "bs_scholes.h"
+#include "black_scholes.h"
 #include "newton_raphson.h"
 
 #include <iostream>
