@@ -4,6 +4,7 @@
 #include <iostream>
 #include <cmath>
 #include "greeks.h"
+#include "greeks.cpp"
 
 using namespace std;
 
