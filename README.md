@@ -1,4 +1,8 @@
 ### derivatives modeling in C++:
+
+- Moving Average Model for volatility of asset returns
+     - [MovingAverageModel_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
+     - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
  
 - Options Sensitivities with Black-Scholes Model 
      - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
@@ -16,8 +20,3 @@
      - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSCallPrice.h)
      - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/BSPutPrice.h)
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/calculateVega.h)  
-
-- Moving Average Model for volatility of asset returns
-     - [MovingAverageModel_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
-     - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
-  
