@@ -22,7 +22,6 @@ vector<double> MovingAverageModel::MovingAverageModel(int lag, vector<double>& S
 	int A = 252;				// 252 trading days per year
 	int i, j;								
 
-
 	for (i = 0; i < N - 1; i++)
 	{
 	// calculate compounded return
@@ -43,7 +42,9 @@ vector<double> MovingAverageModel::MovingAverageModel(int lag, vector<double>& S
 		}
 		vols.push_back(100 * sqrt(var / ((lag - 1) * (A))));
 	}
+	
 	i = 0;
+	
 	// print of Moving Average volatilites
 	for (iter=vols.begin(); iter != vols.end() ; iter++) 
 	{
