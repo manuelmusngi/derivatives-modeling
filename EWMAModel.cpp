@@ -8,7 +8,7 @@
 
 using namespace std;
 
-vector<double> EWMAModel::EWMA(double lambda, vector<double>& S)
+vector<double> EWMAModel::EWMAModel(double lambda, vector<double>& S)
 {
 	vector<double> returns;			// vector returns
 	vector<double> vols;			// vector of volatilities
