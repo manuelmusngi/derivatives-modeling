@@ -3,6 +3,10 @@
 - Moving Average Model for volatility of asset returns
      - [MovingAverageModel_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
      - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
+     
+- Exponential Moving Average Model for volatility of asset returns
+     - [EWMAModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.cpp) 
+     - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.h)
  
 - Options Sensitivities with Black-Scholes Model 
      - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
