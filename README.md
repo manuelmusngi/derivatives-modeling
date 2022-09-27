@@ -1,7 +1,7 @@
 ### derivatives modeling in C++:
 
 - Moving Average Model for volatility of asset returns
-     - [MovingAverageModel_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
+     - [MovingAverageModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ma_main.cpp) 
      - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
      
 - Exponentially Weighted Moving Average Model for volatility of asset returns
