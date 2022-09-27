@@ -25,7 +25,7 @@ vector<double> EWMAModel::EWMA(double lambda, vector<double>& S)
 
 	for (i = 0; i < N-1; i++) 
 	{
-		// calculate compounded return
+		// calculate compound return
 		ret = log(S[i + 1]/S[i]);
 		returns.push_back(ret);
 		sum = sum + ret;
