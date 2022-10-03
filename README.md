@@ -1,9 +1,5 @@
 ### derivatives modeling in C++:
 
-- Moving Average Model for volatility of asset returns
-     - [MovingAverageModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.cpp) 
-     - [MovingAverageModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/MovingAverageModel.h)
-     
 - Exponentially Weighted Moving Average Model for volatility of asset returns
      - [EWMAModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.cpp) 
      - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.h)
