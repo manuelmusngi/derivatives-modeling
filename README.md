@@ -5,7 +5,7 @@
      - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.h)
  
 - Options Sensitivities with Black-Scholes Model 
-     - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
+     - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/greeks_main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.cpp)
      - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks.h)
 
