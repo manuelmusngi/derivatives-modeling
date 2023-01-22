@@ -2,7 +2,7 @@
 
 - Exponentially Weighted Moving Average Model for volatility of asset returns
      - [EWMAModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.cpp) 
-     - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/EWMAModel.h)
+     - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.h)
  
 - Options Sensitivities with Black-Scholes Model 
      - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks_main.cpp)
