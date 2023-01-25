@@ -10,9 +10,9 @@
      - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/greeks.h)
 
 - Implied Volatility with Newton-Raphson Model 
-     - [newton_raphson_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson_main.cpp)
-     - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton_raphson.h)
-     - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/black_scholes.h)
+     - [newton_raphson_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/iv/newton_raphson_main.cpp)
+     - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/iv/newton_raphson.h)
+     - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/iv/black_scholes.h)
 
 - Implied Volatility Surface with Stochastic Volatility Model
      - [CalculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/CalculateImpliedVolatilitySurface.cpp)
