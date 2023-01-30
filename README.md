@@ -22,5 +22,5 @@
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h)  
 
 #### LICENSE
-- [MIT License](https://github.com/manuelmusngi/derivatives-modeling/blob/main/LICENSE)
+     - [MIT License](https://github.com/manuelmusngi/derivatives-modeling/blob/main/LICENSE)
 
