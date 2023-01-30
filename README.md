@@ -21,6 +21,3 @@
      - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSPutPrice.h)
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h)  
 
-#### LICENSE
-     - [MIT License](https://github.com/manuelmusngi/derivatives-modeling/blob/main/LICENSE)
-
