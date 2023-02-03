@@ -5,12 +5,12 @@
      - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.h)
  
 - Options Sensitivities with Black-Scholes Model 
-     - [greeks_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/greeks_main.cpp)
+     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/greeks.cpp)
      - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/greeks/greeks.h)
 
 - Implied Volatility with Newton-Raphson Model 
-     - [newton_raphson_main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newtonraphson/newton_raphson_main.cpp)
+     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newtonraphson/main.cpp)
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newtonraphson/newton_raphson.h)
      - [black_scholes.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newtonraphson/black_scholes.h)
 
