@@ -10,7 +10,7 @@ using namespace std;
 
 int main(int argc, char** argv) 
 {
-    // example parameter list
+    // parameter list example
     double S = 100.0;  // Underlying spot price
     double K = 100.0;  // Strike price
     double r = 0.05;   // Risk-free rate (5%)
