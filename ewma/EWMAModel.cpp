@@ -14,10 +14,10 @@ vector<double> EWMAModel::EWMAModel(double lambda, vector<double>& S)
 	vector<double> vols;			// vector of volatilities
 	vector<double> ::iterator iter;		// vector of iterator
 
-	double ret = 0.0;					
-	double sum = 0.0; 					
-	double var = 0.0;					
-	double ave = 0.0;
+	auto ret = 0.0;					
+	auto sum = 0.0; 					
+	auto var = 0.0;					
+	auto ave = 0.0;
 	int N = S.size();
 	int i, j;
 	const int lag = 100;
