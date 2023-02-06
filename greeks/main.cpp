@@ -11,26 +11,26 @@ using namespace std;
 int main(int argc, char** argv) 
 {
 	// Parameter list example
-	double S = 100.0;  // Instrument price
-	double K = 100.0;  // Strike price
-	double r = 0.05;   // Risk-free rate (example 5%)
-	double v = 0.2;    // Volatility of the underlying (example 20%)
-	double T = 1.0;    // One year until expiration
+	auto S = 100.0;  // Instrument price
+	auto K = 100.0;  // Strike price
+	auto r = 0.05;   // Risk-free rate (example 5%)
+	auto v = 0.2;    // Volatility of the underlying (example 20%)
+	auto T = 1.0;    // One year until expiration
 
 	// Calculate the Call/Put values and Options Greeks
-	double call = call_price(S, K, r, v, T);
-	double call_delta_v = call_delta(S, K, r, v, T);
-	double call_gamma_v = call_gamma(S, K, r, v, T);
-	double call_vega_v = call_vega(S, K, r, v, T);
-	double call_theta_v = call_theta(S, K, r, v, T);
-	double call_rho_v = call_rho(S, K, r, v, T);
+	auto call = call_price(S, K, r, v, T);
+	auto call_delta_v = call_delta(S, K, r, v, T);
+	auto call_gamma_v = call_gamma(S, K, r, v, T);
+	auto call_vega_v = call_vega(S, K, r, v, T);
+	auto call_theta_v = call_theta(S, K, r, v, T);
+	auto call_rho_v = call_rho(S, K, r, v, T);
 
-	double put = put_price(S, K, r, v, T);
-	double put_delta_v = put_delta(S, K, r, v, T);
-	double put_gamma_v = put_gamma(S, K, r, v, T);
-	double put_vega_v = put_vega(S, K, r, v, T);
-	double put_theta_v = put_theta(S, K, r, v, T);
-	double put_rho_v = put_rho(S, K, r, v, T);
+	auto put = put_price(S, K, r, v, T);
+	auto put_delta_v = put_delta(S, K, r, v, T);
+	auto put_gamma_v = put_gamma(S, K, r, v, T);
+	auto put_vega_v = put_vega(S, K, r, v, T);
+	auto put_theta_v = put_theta(S, K, r, v, T);
+	auto put_rho_v = put_rho(S, K, r, v, T);
 
 	// Output Greek parameters and Option price
 	cout << "Underlying:      " << S << endl;
