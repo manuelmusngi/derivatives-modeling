@@ -18,26 +18,26 @@ int main(int argc, char** argv)
 	auto T = 1.0;    // One year until expiration
 
 	// Calculate the Call/Put values and Options Greeks
-	auto call = call_price(S, K, r, v, T);
-	auto call_delta_v = call_delta(S, K, r, v, T);
-	auto call_gamma_v = call_gamma(S, K, r, v, T);
-	auto call_vega_v = call_vega(S, K, r, v, T);
-	auto call_theta_v = call_theta(S, K, r, v, T);
-	auto call_rho_v = call_rho(S, K, r, v, T);
+	auto call = callPrice(S, K, r, v, T);
+	auto call_delta_v = callDelta(S, K, r, v, T);
+	auto call_gamma_v = callGamma(S, K, r, v, T);
+	auto call_vega_v = callVega(S, K, r, v, T);
+	auto call_theta_v = callTheta(S, K, r, v, T);
+	auto call_rho_v = callRho(S, K, r, v, T);
 
-	auto put = put_price(S, K, r, v, T);
-	auto put_delta_v = put_delta(S, K, r, v, T);
-	auto put_gamma_v = put_gamma(S, K, r, v, T);
-	auto put_vega_v = put_vega(S, K, r, v, T);
-	auto put_theta_v = put_theta(S, K, r, v, T);
-	auto put_rho_v = put_rho(S, K, r, v, T);
+	auto put = putPrice(S, K, r, v, T);
+	auto put_delta_v = putDelta(S, K, r, v, T);
+	auto put_gamma_v = putGamma(S, K, r, v, T);
+	auto put_vega_v = putVega(S, K, r, v, T);
+	auto put_theta_v = putTheta(S, K, r, v, T);
+	auto put_rho_v = putRho(S, K, r, v, T);
 
 	// Output Greek parameters and Option price
 	cout << "Underlying:      " << S << endl;
 	cout << "Strike:          " << K << endl;
 	cout << "Risk-Free Rate:  " << r << endl;
 	cout << "Volatility:      " << v << endl;
-	cout << "Expiration:        " << T << endl << endl;
+	cout << "Expiration:      " << T << endl << endl;
 
 	cout << "Call Price:      " << call << endl;
 	cout << "Call Delta:      " << call_delta_v << endl;
