@@ -19,8 +19,7 @@ class EWMAModel
 	public:
 		int EWMA() {};
 		virtual ~EWMAModel() {};
-		vector<double> EWMA(double // computes exponential moving average
-			lambda, vector<double>& prices);
+		vector<double> EWMA(double lambda, vector<double>& prices); 
 };
 
 #endif
