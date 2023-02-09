@@ -1,9 +1,5 @@
 ### derivatives modeling in C++:
 
-- Volatility of asset returns with Exponentially Weighted Moving Average Model
-     - [EWMAModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.cpp) 
-     - [EWMAModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ewma/EWMAModel.h)
- 
 - Option Sensitivities with Black-Scholes Model 
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/greeks.cpp)
