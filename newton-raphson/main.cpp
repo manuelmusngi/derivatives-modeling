@@ -1,10 +1,9 @@
 #ifndef __NEWTON_RAPHSON_MAIN_CPP
 #define __NEWTON_RAPHSON_MAIN_CPP
 
+#include <iostream>
 #include "black_scholes.h"
 #include "newton_raphson.h"
-
-#include <iostream>
 
 using namespace std;
 
