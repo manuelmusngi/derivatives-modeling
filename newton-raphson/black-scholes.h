@@ -1,6 +1,5 @@
 #ifndef BLACK_SCHOLES_H
 #define BLACK_SCHOLES_H
-
 #define _USE_MATH_DEFINES
 
 #include <iostream>
@@ -8,13 +7,13 @@
 #include <algorithm>    
 
 // Standard normal probability density function
-double norm_pdf(const double x)
+double normPDF(const double x)
 {
     return (1.0 / (pow(2 * M_PI, 0.5))) * exp(-0.5 * x * x);
 }
 
 // Approximation to the cumulative distribution function for the standard normal distribution
-double norm_cdf(const double x)
+double normCDF(const double x)
 {
     double k = 1.0 / (1.0 + 0.2316419 * x);
     double k_sum = k * (0.319381530 + k * (-0.356563782 + k * (1.781477937 + k * (-1.821255978 + 1.330274429 * k))));
@@ -25,7 +24,7 @@ double norm_cdf(const double x)
     }
     else
     {
-        return 1.0 - norm_cdf(-x);
+        return 1.0 - normCDF(-x);
     }
 }
 
@@ -36,82 +35,76 @@ double d_j(const int j, const double S, const double K, const double r, const do
     return (log(S / K) + (r + (pow(-1, j - 1)) * 0.5 * v * v) * T) / (v * (pow(T, 0.5)));
 }
 
-// Calculate the European Expiry Call price based on
-// underlying S, strike K, risk-free rate r, volatility of
-// underlying sigma and time to maturity T
-double call_price(const double S, const double K, const double r, const double v, const double T)
+/* Calculate Option Greek based on:
+   underlying S, 
+   strike K, 
+   risk-free rate r, 
+   volatility of underlying v 
+   time to expiration T
+*/
+
+// Call Option
+double callPrice(const double S, const double K, const double r, const double v, const double T)
 {
-    return S * norm_cdf(d_j(1, S, K, r, v, T)) - K * exp(-r * T) * norm_cdf(d_j(2, S, K, r, v, T));
+    return S * normCDF(d_j(1, S, K, r, v, T)) - K * exp(-r * T) * normCDF(d_j(2, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Call Delta
-double call_delta(const double S, const double K, const double r, const double v, const double T)
+double callDelta(const double S, const double K, const double r, const double v, const double T)
 {
-    return norm_cdf(d_j(1, S, K, r, v, T));
+    return normCDF(d_j(1, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Call Gamma
-double call_gamma(const double S, const double K, const double r, const double v, const double T)
+double callGamma(const double S, const double K, const double r, const double v, const double T)
 {
-    return norm_pdf(d_j(1, S, K, r, v, T)) / (S * v * sqrt(T));
+    return normPDF(d_j(1, S, K, r, v, T)) / (S * v * sqrt(T));
 }
 
-// Calculate the European Expiry Call Vega
-double call_vega(const double S, const double K, const double r, const double v, const double T)
+double callVega(const double S, const double K, const double r, const double v, const double T)
 {
-    return S * norm_pdf(d_j(1, S, K, r, v, T)) * sqrt(T);
+    return S * normPDF(d_j(1, S, K, r, v, T)) * sqrt(T);
 }
 
-// Calculate the European Expiry Call Theta
-double call_theta(const double S, const double K, const double r, const double v, const double T)
+double callTheta(const double S, const double K, const double r, const double v, const double T)
 {
-    return -(S * norm_pdf(d_j(1, S, K, r, v, T)) * v) / (2 * sqrt(T))
-        - r * K * exp(-r * T) * norm_cdf(d_j(2, S, K, r, v, T));
+    return -(S * normPDF(d_j(1, S, K, r, v, T)) * v) / (2 * sqrt(T))
+        - r * K * exp(-r * T) * normPDF(d_j(2, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Call Rho
-double call_rho(const double S, const double K, const double r, const double v, const double T)
+double callRho(const double S, const double K, const double r, const double v, const double T)
 {
-    return K * T * exp(-r * T) * norm_cdf(d_j(2, S, K, r, v, T));
+    return K * T * exp(-r * T) * normCDF(d_j(2, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Put price based on
-// underlying S, strike K, risk-free rate r, volatility of
-// underlying sigma and time to maturity T
-double put_price(const double S, const double K, const double r, const double v, const double T)
+// Put Option
+double putPrice(const double S, const double K, const double r, const double v, const double T)
 {
-    return -S * norm_cdf(-d_j(1, S, K, r, v, T)) + K * exp(-r * T) * norm_cdf(-d_j(2, S, K, r, v, T));
+    return -S * normCDF(-d_j(1, S, K, r, v, T)) + K * exp(-r * T) * normCDF(-d_j(2, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Put Delta
-double put_delta(const double S, const double K, const double r, const double v, const double T)
+double putDelta(const double S, const double K, const double r, const double v, const double T)
 {
-    return norm_cdf(d_j(1, S, K, r, v, T)) - 1;
+    return normCDF(d_j(1, S, K, r, v, T)) - 1;
 }
 
-// Calculate the European Expiry Put Gamma
-double put_gamma(const double S, const double K, const double r, const double v, const double T)
+double putGamma(const double S, const double K, const double r, const double v, const double T)
 {
-    return call_gamma(S, K, r, v, T); // Identical to Call by Put-Call parity
+    return callGamma(S, K, r, v, T); // Identical to Call by Put-Call parity
 }
 
-// Calculate the European Expiry Put Vega
-double put_vega(const double S, const double K, const double r, const double v, const double T)
+double putVega(const double S, const double K, const double r, const double v, const double T)
 {
-    return call_vega(S, K, r, v, T); // Identical to Call by Put-Call parity
+    return callVega(S, K, r, v, T); // Identical to Call by Put-Call parity
 }
 
-// Calculate the European Expiry Put Theta
-double put_theta(const double S, const double K, const double r, const double v, const double T)
+double putTheta(const double S, const double K, const double r, const double v, const double T)
 {
-    return -(S * norm_pdf(d_j(1, S, K, r, v, T)) * v) / (2 * sqrt(T))
-        + r * K * exp(-r * T) * norm_cdf(-d_j(2, S, K, r, v, T));
+    return -(S * normPDF(d_j(1, S, K, r, v, T)) * v) / (2 * sqrt(T))
+        + r * K * exp(-r * T) * normCDF(-d_j(2, S, K, r, v, T));
 }
 
-// Calculate the European Expiry Put Rho
-double put_rho(const double S, const double K, const double r, const double v, const double T)
+double putRho(const double S, const double K, const double r, const double v, const double T)
 {
-    return -T * K * exp(-r * T) * norm_cdf(-d_j(2, S, K, r, v, T));
+    return -T * K * exp(-r * T) * normCDF(-d_j(2, S, K, r, v, T));
 }
 
 #endif
