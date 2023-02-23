@@ -20,5 +20,5 @@
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h) 
 
 #### References 
-- C++11 - C++14 - C++17
+- C++11  C++14  C++17
  
