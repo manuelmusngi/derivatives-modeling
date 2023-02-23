@@ -1,4 +1,4 @@
-### derivatives modeling in C++:
+### C++ derivatives modeling:
 
 - Option Sensitivities with Black-Scholes Model 
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/main.cpp)
@@ -17,5 +17,10 @@
      - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/normalCalc.h)
      - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSCallPrice.h)
      - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSPutPrice.h)
-     - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h)  
+     - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h) 
 
+### References
+    C++11
+    C++14
+    C++17
+ 
