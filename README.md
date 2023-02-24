@@ -19,6 +19,6 @@
      - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSPutPrice.h)
      - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h) 
 
-#### References 
+#### Reference(s) 
 - C++11 | C++14 | C++17
  
