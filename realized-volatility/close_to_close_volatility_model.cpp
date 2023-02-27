@@ -1,7 +1,9 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
+// using namespace std;
+using std::cout;
+using std::endl;
 
 double calculateStandardDeviation(double prices[], int numPrices) 
 {
