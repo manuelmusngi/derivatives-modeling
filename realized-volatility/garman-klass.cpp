@@ -18,7 +18,7 @@ double calculateGarmanKlassVolatility(double high[], double low[], double open[]
         logSum += log(close[i] / open[i]) * log(close[i] / open[i]);
     }
 
-    // Calculate the Garman-Klass volatility estimator
+    // Calculate the Garman-Klass volatility 
     garmanKlassVolatility = sqrt((1.0 / numPrices) * sum - (1.0 / (2.0 * numPrices * numPrices)) * logSum);
 
     return garmanKlassVolatility;
@@ -33,11 +33,11 @@ int main()
     int numPrices = 5;
     double garmanKlassVolatility;
 
-    // Calculate the Garman-Klass volatility estimator
+    // Calculate the Garman-Klass volatility
     garmanKlassVolatility = calculateGarmanKlassVolatility(high, low, open, close, numPrices);
 
     // Print the result
-    cout << "The Garman-Klass volatility estimator is: " << garmanKlassVolatility << endl;
+    cout << "The Garman-Klass volatility is: " << garmanKlassVolatility << endl;
 
     return 0;
 }
