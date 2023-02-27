@@ -1,5 +1,12 @@
 #### C++ derivatives modeling:
 
+- Realized Volatility Estimation Models 
+     - [close-to-close.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility/close-to-close.cpp)
+     - [garman-klass.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility/garman-klass.cpp)
+     - [parkinson.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility/parkinson.cpp)
+     - [rogers-satchell.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility/rogers-satchell.cpp)
+     - [yang-zhang](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility/yang-zhang.cpp)
+
 - Option Sensitivities with Black-Scholes Model 
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/main.cpp)
      - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/greeks.cpp)
