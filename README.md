@@ -20,11 +20,9 @@
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton-raphson/newton_raphson.h)
      
 - Implied Volatility Surface with Stochastic Volatility Model
-     - [CalculateImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/CalculateImpliedVolatilitySurface.cpp)
-     - [normalCalc.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/normalCalc.h)
-     - [BSCallPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSCallPrice.h)
-     - [BSPutPrice.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/BSPutPrice.h)
-     - [calculateVega.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/ivsurface/calculateVega.h) 
+     - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
+     - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
+     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
 
 #### Reference(s) 
 - C++11 | C++14 | C++17
