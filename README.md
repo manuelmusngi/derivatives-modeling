@@ -19,7 +19,7 @@
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton-raphson/main.cpp)
      - [newton_raphson.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/newton-raphson/newton_raphson.h)
      
-- Implied Volatility Surface with Stochastic Volatility Model
+- Options Implied Volatility Surface 
      - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
      - [OptionsImpliedVolatilitySurface.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.cpp)
      - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/main.cpp)
