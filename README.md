@@ -8,9 +8,8 @@
      - [yang-zhang.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/realized-volatility-models/yang-zhang.cpp)
 
 - Option Sensitivities with Black-Scholes Model 
-     - [main.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/main.cpp)
-     - [greeks.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/greeks.cpp)
-     - [greeks.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/greeks.h)
+     - [BlackScholesModel.cpp](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.cpp)
+     - [BlackScholesModel.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/option-sensitivities/BlackScholesModel.h)
      
 - Options Implied Volatility Surface 
      - [OptionsImpliedVolatilitySurface.h](https://github.com/manuelmusngi/derivatives-modeling/blob/main/IVSurface/OptionsImpliedVolatilitySurface.hpp)
