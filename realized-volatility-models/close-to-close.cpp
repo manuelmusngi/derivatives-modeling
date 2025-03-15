@@ -2,28 +2,33 @@
 
 #include <iostream>
 #include <cmath>
+#include <vector>
 
 using std::cout;
 using std::endl;
+using std::vector;
 
-double calculateStandardDeviation(double prices[], int numPrices) 
+double calculateStandardDeviation(const vector<double> &prices) 
 {
     double sum = 0.0, mean, variance = 0.0, stdDev;
-    int i;
+
+    if (prices.empty()) {
+        return 0.0;
+    }
 
     // Calculate Mean
-    for (i = 0; i < numPrices; ++i) 
+    for (const auto &price : prices) 
     {
-        sum += prices[i];
+        sum += price;
     }
-    mean = sum / numPrices;
+    mean = sum / prices.size();
 
     // Calculate Variance
-    for (i = 0; i < numPrices; ++i) 
+    for (const auto &price : prices) 
     {
-        variance += pow(prices[i] - mean, 2);
+        variance += pow(price - mean, 2);
     }
-    variance /= numPrices;
+    variance /= prices.size();
 
     // Calculate Standard Deviation
     stdDev = sqrt(variance);
@@ -31,28 +36,24 @@ double calculateStandardDeviation(double prices[], int numPrices)
     return stdDev;
 }
 
-double calculateCloseToCloseVolatility(double prices[], int numPrices) 
+double calculateCloseToCloseVolatility(const vector<double> &prices) 
 {
-    double stdDev, closeToCloseVolatility;
-    int i;
+    if (prices.size() <= 1) {
+        return 0.0;
+    }
 
-    // Calculate the standard deviation of the closing prices
-    stdDev = calculateStandardDeviation(prices, numPrices);
+    double stdDev = calculateStandardDeviation(prices);
 
     // Calculate the close-to-close volatility
-    closeToCloseVolatility = stdDev * sqrt(numPrices / (numPrices - 1));
+    double closeToCloseVolatility = stdDev * sqrt(static_cast<double>(prices.size()) / (prices.size() - 1));
 
     return closeToCloseVolatility;
 }
 
 int main() 
 {
-    double prices[] = { 10.5, 11.2, 12.8, 10.9, 9.5 };
-    int numPrices = 5;
-    double closeToCloseVolatility;
-
-    // Calculate the close-to-close volatility
-    closeToCloseVolatility = calculateCloseToCloseVolatility(prices, numPrices);
+    vector<double> prices = { 10.5, 11.2, 12.8, 10.9, 9.5 };
+    double closeToCloseVolatility = calculateCloseToCloseVolatility(prices);
 
     // Print the result
     cout << "The close-to-close volatility is: " << closeToCloseVolatility << endl;
