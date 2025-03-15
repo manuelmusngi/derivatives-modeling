@@ -26,7 +26,7 @@ OptionsImpliedVolatilitySurface::OptionsImpliedVolatilitySurface(
 }
 
 // Function to get the volatility for a given strike and expiration
-double OptionsImpliedVolatilitySurface::GetVolatility(double strike, double expiration) const 
+double OptionsImpliedVolatilitySurface::GetVolatility(const double& strike, const double& expiration) const 
 {
     // Find the index of the strike and expiration
     auto strike_it = std::find(k_strikes.begin(), k_strikes.end(), strike);
