@@ -1,5 +1,5 @@
-#ifndef __BS_PRICES_H
-#define __BS_PRICES_H
+#ifndef BS_PRICES_H
+#define BS_PRICES_H
 
 #define _USE_MATH_DEFINES
 #define M_SQRT1_2  0.707106781186547524401
