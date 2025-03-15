@@ -1,6 +1,8 @@
 #ifndef BLACKSCHOLESMODEL_H
 #define BLACKSCHOLESMODEL_H
 
+#include <cmath> // For mathematical functions
+
 class BlackScholesModel 
 {
     public:
