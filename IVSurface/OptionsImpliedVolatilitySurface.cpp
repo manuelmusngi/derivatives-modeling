@@ -5,9 +5,23 @@
 OptionsImpliedVolatilitySurface::OptionsImpliedVolatilitySurface(
     const std::vector<double>& strikes,
     const std::vector<double>& expirations,
-    const std::vector<std::vector<double>>& volatilities) : k_strikes(strikes),
-                                                            k_expirations(expirations),
-                                                            k_volatilities(volatilities) {}
+    const std::vector<std::vector<double>>& volatilities) 
+    : k_strikes(strikes),
+      k_expirations(expirations),
+      k_volatilities(volatilities) 
+{
+    if (k_strikes.empty() || k_expirations.empty() || k_volatilities.empty()) {
+        throw std::invalid_argument("Input vectors must not be empty");
+    }
+    if (k_volatilities.size() != k_expirations.size()) {
+        throw std::invalid_argument("Volatilities matrix row size must match the number of expirations");
+    }
+    for (const auto& row : k_volatilities) {
+        if (row.size() != k_strikes.size()) {
+            throw std::invalid_argument("Each row in volatilities matrix must match the number of strikes");
+        }
+    }
+}
 
 double OptionsImpliedVolatilitySurface::GetVolatility(double strike, double expiration) const 
 {
