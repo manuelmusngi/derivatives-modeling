@@ -1,6 +1,8 @@
 #ifndef __BLACK_SCHOLES_H
 #define __BLACK_SCHOLES_H
 
+#include <cmath>
+
 class BlackScholesCall 
 {
     private:
